@@ -13,3 +13,7 @@
 <div *ngIf="showText">I am visible</div>
 
 <button (click)="toggleVisibility()">{{showText ? 'Hide Text' : 'Show Text'}}</button>
+
+<div id="container">
+    <app-user-list-item [userArray]="users"></app-user-list-item>
+</div>
