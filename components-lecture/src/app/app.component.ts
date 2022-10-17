@@ -8,7 +8,27 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 1;
 
+  users = [
+    {
+      name: 'Ivan',
+      age: 100,
+    },
+    {
+      name: 'George',
+      age: 101,
+    },
+    {
+      name: 'Boko',
+      age: 102,
+    },
+  ];
+
   buttonHandler(): void {
-    this.title++;
+    const current = this.title++;
+    
+    this.users.push({
+      name: `Ivan ${current}`,
+      age: 20 + current,
+    });
   }
 }
