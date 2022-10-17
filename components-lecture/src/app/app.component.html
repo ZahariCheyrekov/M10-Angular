@@ -9,3 +9,7 @@
         {{user.name}}
     </li>
 </ul>
+
+<div *ngIf="showText">I am visible</div>
+
+<button (click)="toggleVisibility()">{{showText ? 'Hide Text' : 'Show Text'}}</button>

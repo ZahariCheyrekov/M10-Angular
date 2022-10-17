@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 1;
+  showText = true;
 
   users = [
     {
@@ -25,10 +26,14 @@ export class AppComponent {
 
   buttonHandler(): void {
     const current = this.title++;
-    
+
     this.users.push({
       name: `Ivan ${current}`,
       age: 20 + current,
     });
+  }
+
+  toggleVisibility(): void {
+    this.showText = !this.showText;
   }
 }
