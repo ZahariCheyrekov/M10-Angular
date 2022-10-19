@@ -6,7 +6,7 @@
 - <a href="#COMPONENTS">Components</a> 
 - <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
 - <a href="#MODULES">Modules and Routing</a>
-- <a href="#">Forms</a>
+- <a href="#fORMS">Forms</a>
 - <a href="#">Pipes, Interceptors and Subjects</a>
 - <a href="#">State Managment</a>
 
@@ -38,3 +38,8 @@
 - Routing Overview
 - Router Module (Links, Redirects, Query Params)
 - Router Guards
+
+## <p id="FORMS">Forms</p>
+- Directives (Attribute, Structural, Building an Attribute)
+- Handling Forms (Template-Driven and Reactive Forms)
+
