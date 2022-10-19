@@ -6,8 +6,8 @@
 - <a href="#COMPONENTS">Components</a> 
 - <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
 - <a href="#MODULES">Modules and Routing</a>
-- <a href="#fORMS">Forms</a>
-- <a href="#">Pipes, Interceptors and Subjects</a>
+- <a href="#FORMS">Forms</a>
+- <a href="#PIPES">Pipes, Interceptors and Subjects</a>
 - <a href="#">State Managment</a>
 
 
@@ -43,3 +43,9 @@
 - Directives (Attribute, Structural, Building an Attribute)
 - Handling Forms (Template-Driven and Reactive Forms)
 
+## <p id="PIPES">Pipes, Interceptors and Subjects</p>
+- Pipes
+- JWT Authentication
+- Interceptors
+- Lazy Loading
+- Subjects
