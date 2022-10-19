@@ -8,7 +8,7 @@
 - <a href="#MODULES">Modules and Routing</a>
 - <a href="#FORMS">Forms</a>
 - <a href="#PIPES">Pipes, Interceptors and Subjects</a>
-- <a href="#">State Managment</a>
+- <a href="#STATE">State Managment</a>
 
 
 ## <p id="INTROATS">Intro to Angular and TypeScript</p>
@@ -49,3 +49,8 @@
 - Interceptors
 - Lazy Loading
 - Subjects
+
+## <p id="STATE">State Managment</p>
+- Introduction to Redux
+- NgRX Store (Store and App State, Actions, Reducers, Dispatching actions)
+
