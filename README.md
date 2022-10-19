@@ -5,7 +5,7 @@
 - <a href="#INTROATS">Intro to Angular and TypeScript</a>
 - <a href="#COMPONENTS">Components</a> 
 - <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
-- <a href="#">Modules and Routing</a>
+- <a href="#MODULES">Modules and Routing</a>
 - <a href="#">Forms</a>
 - <a href="#">Pipes, Interceptors and Subjects</a>
 - <a href="#">State Managment</a>
@@ -32,3 +32,9 @@
 - Services
 - Obserables and RXJS
 - HTTP Client
+
+## <p id="MODULES">Modules and Routing</p>
+- NgModule
+- Routing Overview
+- Router Module (Links, Redirects, Query Params)
+- Router Guards
