@@ -27,3 +27,8 @@
 - Component Interaction
 
 ## <p id="DIRXJS">DI, Intro to RxJS, Services</p>
+- Change Detection Strategy
+- SOLID Principles
+- Services
+- Obserables and RXJS
+- HTTP Client
