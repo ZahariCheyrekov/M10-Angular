@@ -1,19 +1,19 @@
 <app-test></app-test>
 
-<input [value]="title" />
+<input [value]="userService.title" />
 
-<button (click)="buttonHandler()">Click</button>
+<button (click)="userService.buttonHandler()">Click</button>
 
 <ul>
-    <li *ngFor="let user of users">
+    <li *ngFor="let user of userService.users">
         {{user.name}}
     </li>
 </ul>
 
-<div *ngIf="showText">I am visible</div>
+<div *ngIf="userService.showText">I am visible</div>
 
-<button (click)="toggleVisibility()">{{showText ? 'Hide Text' : 'Show Text'}}</button>
+<button (click)="userService.toggleVisibility()">{{userService.showText ? 'Hide Text' : 'Show Text'}}</button>
 
 <div id="container">
-    <app-user-list-item [userArray]="users"></app-user-list-item>
+    <app-user-list-item [userArray]="userService.users"></app-user-list-item>
 </div>
