@@ -6,6 +6,7 @@ import { TestComponent } from './test/test.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserListItemComponent } from './user-list-item/user-list-item.component';
 import { UserService } from './user.service';
+import { HttpClientModule } from '@angular/common/http';
 
 export const myStringInjectionToken = new InjectionToken('myString');
 
@@ -16,7 +17,7 @@ export const myStringInjectionToken = new InjectionToken('myString');
     UserListComponent,
     UserListItemComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, HttpClientModule],
   providers: [
     UserService,
     {
