@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { Inject, Injectable } from '@angular/core';
+import { myStringInjectionToken } from './app.module';
 
 import { IUser } from './interfaces/user';
 
@@ -23,6 +24,8 @@ export class UserService {
       age: 102,
     },
   ];
+
+  constructor(@Inject(myStringInjectionToken) myString: String) {}
 
   buttonHandler(): void {
     const current = this.title++;
