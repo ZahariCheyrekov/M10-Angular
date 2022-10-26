@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IUser } from './interfaces/user';
 
 @Component({
   selector: 'app-root',
@@ -35,5 +36,18 @@ export class AppComponent {
 
   toggleVisibility(): void {
     this.showText = !this.showText;
+  }
+
+  constructor() {
+    setInterval(() => {
+      this.users.push({
+        name: 'Ivar',
+        age: -99,
+      });
+    }, 5000);
+  }
+  
+  addNewUserHandler(newUser: IUser): void {
+    this.users.push(newUser);
   }
 }
