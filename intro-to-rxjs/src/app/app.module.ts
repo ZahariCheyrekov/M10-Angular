@@ -18,10 +18,7 @@ export const myStringInjectionToken = new InjectionToken('myString');
   ],
   imports: [BrowserModule],
   providers: [
-    {
-      provide: UserService,
-      useClass: UserService,
-    },
+    UserService,
     {
       provide: myStringInjectionToken,
       useValue: 'Hello World',
