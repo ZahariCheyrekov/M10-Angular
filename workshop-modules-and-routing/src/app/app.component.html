@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<input [value]="title" />
+
+<button (click)="buttonHandler()">Click</button>
+
+<ul>
+    <li *ngFor="let user of users">
+        {{user.name}}
+    </li>
+</ul>
+
+<div *ngIf="showText">I am visible</div>
+
+<button (click)="toggleVisibility()">{{showText ? 'Hide Text' : 'Show Text'}}</button>
+
+<div id="container">
+    <app-user-list-item [userArray]="users"></app-user-list-item>
+</div>
+
+<app-footer></app-footer>
