@@ -1,5 +1,5 @@
 # M10-Angular
-The course provides knowledge and practical skills for building client applications (Single Page Applications) with Angular technology, a working framework created by Google and one of the most popular at the moment. It offers knowledge about Typescript and its basic syntax and concepts and JavaScript knowledge, such as conveniences for development in the browser and on mobile platforms. 
+The course provides knowledge and practical skills for building client applications (Single Page Applications) with Angular technology, a working framework created by Google and one of the most popular at the moment. It offers knowledge about Typescript and its basic syntax and concepts and JavaScript knowledge, such as conveniences for development in the browser and on mobile platforms. The idea of Single Page Application (SPA), architectural patterns for SPA applications, components, directives and their implementation in Angular. Views and templates for data visualization (templates), models, components, data binding, working with many views, observables, routing, extracting data from a REST service and dependency injection ( DI).
 
 # Course Overview
 
