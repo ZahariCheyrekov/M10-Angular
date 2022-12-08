@@ -1,4 +1,5 @@
 # M10-Angular
+The course provides knowledge and practical skills for building client applications (Single Page Applications) with Angular technology, a working framework created by Google and one of the most popular at the moment. It offers knowledge about Typescript and its basic syntax and concepts and JavaScript knowledge, such as conveniences for development in the browser and on mobile platforms. 
 
 # Course Overview
 
